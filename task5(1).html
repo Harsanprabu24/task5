@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+
+	<style>
+	  #wrap{
+	  	width: 2000px;
+	  	height: 3250px;
+	  	background-color: lightgoldenrodyellow;
+	  	margin: 0 auto;
+	  } 
+	  #flex1{
+	  	display: flex;
+	  }
+	  #flex1 >div{
+	  	
+	  	
+	  	font-size: 25px;
+	  }
+	  #flex1 #f1{
+	  	width: 50px;
+	  	height: 50px;
+	  	margin-left: 120px;
+	  	text-align: center;
+	  	padding-top: 29px;
+	  	font-size: 30px;
+	  }
+	  #flex1 #f2{
+	  	width: 180px;
+	  	height: 50px;
+	  	font-size: 30px;
+	  	padding-bottom: 15px;
+	  	padding-top: 29px;
+
+
+	  }
+	  #flex1 #f3{
+	  	width:40px ;
+	  	height: 50px;
+	  	margin-left:900px ;
+	  	padding-top: 38px;
+	  	font-size: 30px;
+	  	
+
+	  }
+	  #flex1 #f4{
+	  	width:250px ;
+	  	height: 50px;
+	  	margin-bottom: 10px;
+	  	padding-top: 25px;
+	  }
+	  #flex1 #f5{
+	  	width:400px ;
+	  	height: 50px;
+	  	margin-left: 80px;
+	  	margin-top: 35px;
+	  	font-size: 30px;
+
+
+	  }
+	  #f5 input{
+	  	font-size: 23px;
+	  	border-radius: 8px;
+	  	border-width: 3px;
+	  	
+	  	
+	  }
+
+	  #navbar{
+			padding: 5px 5px;
+			position: sticky;
+			top: 0px;
+			background-color: powderblue;
+			margin-top: 5px;
+			text-align: center;
+		}
+		#navbar li a{
+			text-decoration: none;
+			color: black;
+		}
+		#navbar li{
+			display: inline;
+			font-size: 30px;
+			margin:40px 5px 5px 50px;
+			padding-right: 15px;
+		}
+		#navbar button{
+			display: inline;
+			background-color: black;
+			border-style: solid;
+			border-width: 4px ;
+			border-color: balck;
+			margin: 5px 5px 5px 5px;
+			padding: 10px 10px;
+			border-radius: 8px;
+
+
+		}
+		#navbar li button a{
+			color: white;
+			font-size: 20px;
+		}
+		#background-image{
+			background-image: url('C:/Users/User/Desktop/html/images/vacation.jpg');
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 2000px;
+			height: 1325px;
+			
+		}
+		#box1{
+			width: 850px;
+			height: 300px;
+			border-style: none;
+			margin-left: 50px;
+
+		} 
+		#box1 h1{
+			font-size: 50px;
+		}
+		#box1 p{
+			font-size: 30px;
+		}
+		#box1 button{
+			padding: 13px 13px;
+			background-color: black;
+			margin-left: 170px;
+			margin-top: 0px;
+			border-radius: 10px;
+
+		}
+		#box1 a{
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+          }
+          #flex2{
+          	width: 1370px;
+          	height: 120px;
+          	position: absolute;z-index: 100;
+          	border-style: solid;
+          	border-radius: 10px;
+          	display: flex;
+          	margin-left: 100px;
+          	margin-top: 550px;
+          	background-color: powderblue;
+          	overflow: hidden;
+
+          	
+          }
+          #flex2 >div{
+          	padding-right: 50px;
+          	padding-left: 50px;
+          	padding-top: 20px;
+          	padding-bottom: 30px;
+          	font-size: 27px;
+          }
+
+          #box2{
+          	width: 800px;
+          	height: 300px;
+          	
+          	padding-bottom: 0px;
+          	margin-left: 50px;
+          	font-size: 20px;
+          	
+          	margin-top: 0px;
+          }
+          #box2 button{
+			padding: 13px 13px;
+			background-color: black;
+			border-radius: 10px;
+			color: white;
+			margin-left: 180px;
+			font-size: 23px;
+		}
+		#box2 a{
+			text-decoration: none;
+			color: white;
+		}
+		#box2 p{
+			font-size: 30px;
+		}
+		#flex3{
+           	   display: flex;
+           }
+          #flex3 >div{
+           	width: 470px;
+           	height: 380px;
+           	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+           	margin-left: 100px;
+           	margin-right: 50px;
+           	margin-top: 25px;
+           	background-color: pink;
+          }
+          #f6 p{
+           	float: left;
+           	color: black;
+           	font-size: 15px;
+           	margin-left: 20px;
+           	margin-top: 43px;
+           	font-size: 25px;
+           }
+           #f6 a{
+           	color: black;
+           	text-decoration: none;
+           }
+           #f6 button{
+           	float: right;
+           	padding: 13px;
+           	color: white;
+           	background-color: black;
+           	border-style: solid;
+           	border-width: 3px;
+           	font-size: 18px;
+           	margin-top: 43px;
+           	margin-right: 5px;
+           	border-radius: 8px;
+           	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+           }
+           #f6 button a{
+           	color: white;
+           }
+           #f7 p{
+           	float: left;
+           	color: black;
+           	margin-left: 20px;
+           	margin-top: 40px;
+           	font-size:25px ;
+
+
+           }
+           #f7 a{
+           	color: black;
+           	text-decoration: none;
+           }
+           #f7 button{
+           	float: right;
+           	padding: 13px;
+           	color: white;
+           	margin-bottom: 10px;
+           	background-color: black;
+           	border-style: solid;
+           	border-width: 3px;
+           	font-size: 18px;
+           	margin-top: 43px;
+           	margin-right: 5px;
+           	border-radius: 8px;
+           	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+           }
+           #f7 button a{
+           	color: white;
+           }
+           #f8 p{
+           	float: left;
+           	color: black;
+           	margin-left: 20px;
+           	margin-top: 40px;
+           	font-size: 25px;
+
+           }	
+           #f8 a{
+           	color: black;
+           	text-decoration: none;
+           }
+           #f8 button{
+           	float: right;
+           	padding: 13px;
+           	color: white;
+           	margin-bottom: 10px;
+           	background-color: black;
+           	border-style: solid;
+           	border-width: 3px;
+           	font-size: 18px;
+           	margin-top: 43px;
+           	margin-right: 5px;
+           	border-radius: 8px;
+           	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+           }
+           #f8 button a{
+           	color: white;
+           }
+           #flex4{
+           	   display: flex;
+
+           	}
+           #flex4 >div{
+           	width: 450px;
+           	height: 200px;
+           	margin: 0 auto;
+           	box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.3);
+
+           	
+           }
+           #head{
+           	font-size: 20px;
+           }
+           #flex5{
+           	display: flex;
+           }
+
+           #flex5 >div{
+           	width: 700px;
+           	height: 80px;
+           	text-align: left;
+           	background-color: black;
+           	border-radius: 5px;
+           	margin-top: 100px;
+           	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+           	margin-left: 10px;
+               padding-top: 2px;
+           	
+           }
+           #flex5 a{
+           	text-decoration: none;
+           	color: white;
+           }
+           #flex5 #box3{
+           	font-size: 25px;
+           	text-align: center;
+           }
+           #flex5 #box4{
+           	font-size: 25px;
+           	text-align: center;
+           }
+           #flex5 #box5{
+           	font-size: 25px;
+           	text-align: center;
+           }
+            #flex6{
+           	   display: flex;
+           }
+           #flex6 >div{
+           	
+           	font-size: 20px;
+           	margin-top: 100px;
+           	margin-left: 130px;
+           }
+           #box6{
+           	width: 300px;
+           	height: 400px;
+           	
+           }
+           #box7{
+           	width: 250px;
+           	height: 200px;
+           	
+           }
+           #box8{
+           	width: 250px;
+           	height: 200px;
+           	
+           }
+           #box9{
+           	width: 550px;
+           	height: 400px;
+           	
+           }
+           #box6 a{
+           	text-decoration: none;
+           	font-size: 30px;
+
+
+           }
+           #box7 a{
+           	text-decoration: none;
+           	font-size: 30px;
+           }
+           #box8 a{
+           	font-size: 30px;
+           }
+           #box9 input{
+           	font-size: 25px;
+           }
+           #box9 button{
+           	font-size: 20px;
+           	background-color: black;
+           	margin-left: 10px;
+           	padding: 5px 5px;
+           	border-radius: 10px;
+           }
+           #box9 input{
+           	border-radius:10px;
+           	border-width: 3px;
+           	border-color: black;
+
+           }
+           #box9 a{
+           	text-decoration: none;
+           	color: white;
+           }
+           #flex2 select{
+           	font-size: 20px;
+           }
+           #flex2 input{
+           	font-size: 20px;
+           }
+           
+          
+		   
+             
+          
+
+
+
+    </style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="flex1">
+			<div id="f1">
+				<i class="fa-sharp fa-solid fa-plane-departure"></i>
+			</div>	
+			<div id="f2">	
+				<b>TRAVELING</b>
+			</div>
+			<div id="f3">
+				<i class="fa-solid fa-phone"></i>
+			</div>
+			<div id="f4">
+				<b>Call 24/7 Support <br>+91 (44)1234 4567</b>
+			</div>
+			<div id="f5">
+				<label for="search"></label>
+				<input type="search" id="search" placeholder=" search entire wesite here "> <i class="fa-brands fa-searchengin"></i>
+			</div>
+		</div>		
+		<div id="navbar">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Flights</a></li>
+				<li><a href="#">Vacations</a></li>
+				<li><a href="#">Hot Deals</a></li>
+				<li><a href="#">Travel Guides</a></li>
+				<li><a href="#">Blogs</a></li>
+			     <li><button><a href="#">SIGNUP</a></button></li>
+			     <li><button><a href="#">MY ACCOUNT</a></button></li>
+			    
+			</ul> 
+		</div>
+		<div id="background-image">
+		     <div id="box1">
+			     <h1>WELCOME TO YOUR VACATION</h1>
+			     <p>Enjoy beauty of the world.We offers Budget fridendly,<br>quality family holidays.Be happy at your vacation<br>Join our membership to get more features. </p>
+			      <button><a href="#">Book Now</a></button>
+		     </div>
+		     <div id="box2">
+               	<h1>GRAB YOUR COUPONS HERE</h1>
+               	<p>This coupon may have 100% cashback ,Free subscription for <br> lifetime ,Free for hotel staying at vacation , Free food throughtout the vacation. </p>
+               	<button><a href="3">Click here</a></button>
+               
+               </div>
+		     	
+			<div id="flex2">
+                    <div><label for="What">What</label><br><select>
+				     <option>Flight</option>
+				     <option>Cruise</option>
+				     <option>Ship</option>
+				     <option>Train</option>
+				     <option>Bus</option>
+			          </select></div>
+                    <div><label for="Where">Where</label><br><select>
+				     <option>Saudi Arabia</option>
+				     <option>UK</option>
+				     <option>USA</option>
+				     <option>Sweden</option>
+				     <option>Canadaa</option>
+			          </select>
+			     </div>
+			     <div><label for="When">When</label><br>
+			          <input type="date" id="When" required>
+			     </div>
+                    <div><label for="Who">Who</label><br><select>
+				     <option>Children</option>
+				     <option>Adults</option>
+				     <option>Above 21</option>
+			          </select>
+			     </div>  
+			     <div><label for="Hotel Type">Hotel Type</label><br><select>
+				     <option>7-star</option>
+				     <option>5-star</option>
+				     <option>3-star</option>
+			          </select>
+			     </div> 
+			     <div><label for="Food Type">Food Type</label><br><select>
+				     <option>Vegg</option>
+				     <option>Non-veg</option>
+				     <option>Both</option>
+			          </select>
+			     </div>  
+               </div>
+		</div>
+		<div id="head">
+			<h1>Popular Hotels</h1>
+		</div>
+		<div id="flex3">
+			<div id="f6">
+			     <img src="C:\Users\User\Desktop\html\images\hotel1.jpg" width="470" height="240" >
+			     <p><a href="#">Hotel Mariott</a><br>New York, United states</p>
+			     <button><a href="#">Rs.18,999</a></button>
+			</div>
+			<div id="f7">
+			     <img src="C:\Users\User\Desktop\html\images\hotel2.jpg" width="470" height="240" >
+			     <p><a href="#">Hotel Taj</a><br>South wales, United Kingdom</p>
+			     <button><a href="#">Rs.15,999</a></button>
+			</div>
+			<div id="f8">
+			     <img src="C:\Users\User\Desktop\html\images\hotel3.jpg" width="470" height="240">
+			     <p><a href="#">Hotel Le Meridian</a><br>New City, Canadaa</p>
+			     <button><a href="#">Rs.21,999</a></button>
+			</div>
+		</div><br><br>
+		<div id="head">
+			<h1>Hot Deals</h1>
+		</div><br><br>	
+		<div id="flex4">
+			<div id="f9">
+			     <img src="C:\Users\User\Desktop\html\images\hotel4.jpg" width="500" height="250">
+               </div>
+			<div id="f10">
+                    <img src="C:\Users\User\Desktop\html\images\hotel5.jpg" width="500" height="250">
+               </div>	
+	     </div><br><br>     	
+		<div id="flex5">
+			<div id="box3">
+                    <p><a href="#"> LATEST BLOGS   <i class="fa-solid fa-blog"></i> </a></p>
+		     </div>
+		     <div id="box4">
+		         <p><a href="#"> SPECIAL OFFERS   <i class="fa-solid fa-tag"></i> </a></p>
+		     </div>
+		     <div id="box5">
+		         <p><a href="#"> MORE INFO   <i class="fa-solid fa-circle-info"></i> </a></p>
+		     </div>
+		</div> 
+		<div id="flex6">
+		<div id="box6">
+		    <h2>Company</h2>
+		    <p><a href="#">About the Company</a></p>
+		    <p><a href="#">Terms and Conditions</a></p>
+		    <p><a href="#">Privacy Policy</a></p>
+		    <p><a href="#">Career</a></p>
+		    <p><a href="#">Address</a></p>
+		</div>  
+		<div id="box7">
+		    <h2>Customer Support</h2>
+		    <p><a href="#">Contact</a></p>
+		    <p><a href="#">FAQ</a></p>
+		</div> 
+		<div id="box8">
+		    <h2>Follow us</h2>
+		    <a href=#><i class="fa-brands fa-facebook"></i></a>
+		    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+		    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+		<div id="box9">
+			<h2>Don't miss our deals and offers</h2>
+			<input type="e-mail" placeholder="Enter your mail id"><button><a href="#">SUBSCRIBE</a></button>
+	     </div>                	
+
+
+
+     </div>
+</body>
+</html>
